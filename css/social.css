@@ -9,17 +9,32 @@ ul#facebook {width: 102%; list-style-type: none; padding: 0; margin: 0;}
 #facebook li div.footer {font: normal 14px/18px 'Open Sans', sans-serif; color: #e8e9d6; padding: 6px 10px 8px 22px;}
 #facebook li div.footer a.author {color: #e8e9d6; text-decoration: underline; margin: 0;}
 #facebook li div.footer abbr {color: #fff; padding: 0; margin: 0;}
-#facebook li a.image {float: right; text-align: right; text-decoration: none; margin: 0 0 12px 12px;}
+#facebook li a.image {float: right; max-height: 64px; overflow: hidden; text-align: right; text-decoration: none; margin: 0 0 12px 12px;}
 #facebook li a.image img {max-width: 42px; height: auto; margin: 0;}
 #facebook li div.link {padding: 5px 18px 0 0;}
 #facebook li div.link strong {font-weight: 400;}
 #facebook li div.picture {text-align: right;}
 #facebook li.loading {width: 100%; max-width: 100%; background: none; border-radius: 0; box-shadow: none; text-align: center; padding: 0; margin: 0 0 50px 0;}
-@media (max-width: 350px) {
-	#facebook li .content {width: 238px;}
+@media (max-width: 930px) {
+	#facebook li .content {width: 87.5%;}
+}
+@media (max-width: 840px) {
+	#facebook li .content {width: 84.5%;}
+}
+@media (max-width: 680px) {
+	#facebook li .content {width: 80.5%;}
+}
+@media (max-width: 540px) {
+	#facebook li .content {width: 76.5%;}
+}
+@media (max-width: 430px) {
+	#facebook li .content {width: 72.5%;}
+}
+@media (max-width: 360px) {
+	#facebook li .content {width: 68.5%;}
 }
 @media (max-width: 330px) {
-	#facebook li .content {width: 226px;}
+	#facebook li .content {width: 66.5%;}
 }
 
 ul#facebook_short {padding: 0; margin: 0;}

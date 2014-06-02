@@ -13,9 +13,16 @@ Social = {
 
 		$.getJSON(url, params, function(data) {
       		var	items	= data.data.splice(0, limit);
-
+      		$.each(items, function(index, value){
+      			if (items[index].message)
+      				items[index].message	= items[index].message.substring(0, 64)+'...';
+      			if (items[index].message && items[index].caption)
+      				items[index].caption	= '';
+      			// console.log(items[index]);
+      		});
 			fb_news.html($.tmpl($("#facebook_template"), items));
-			// console.log(items.length);
+			// console.log(items);
+
 			// once loaded
 			fb_news.imagesLoaded(function(){
 				//$(".fb_date").timeago();
@@ -33,7 +40,7 @@ Social = {
 							currYear  = currDate.getYear(),
 							date      = new Date(fb_date[1]+'/'+fb_date[2]+'/'+fb_date[0]+' '+fb_time), // mm/dd/yyy hh:mm:ss
 							day       = date.getDate(),
-							month     = date.getMonth(),
+							month     = date.getMonth()+1,
 							year      = date.getYear();
 						// console.log(date);
 						// e.text(m_names[month]+' '+day+''+(year < currYear ? ' '+year : ''));

@@ -169,19 +169,23 @@ var hju	= {
 	},
 	synchronizeColumnsHeight:	function(){
 		$(document).imagesLoaded(function(){
-			if ($('body').data('synchronize-columns') == true)
+			if ($('body').data('synchronize-columns') == true && $(window).width() > 980)
 			{
-				var	leftcol				= $('.leftcol'),
+				var	rightcol			= $('.rightcol'),
+					fb_stream			= $('.fb_stream'),
 					contentcol			= $('.contentcol'),
-					leftcol_height		= leftcol.height(),
+					rightcol_height		= rightcol.height(),
+					fb_stream_padding_bottom	= hju.unitless(fb_stream.css('padding-bottom')),
 					contentcol_height	= contentcol.height(),			
-					diff_height			= leftcol_height - contentcol_height;
-				// console.log('leftcol height: '+leftcol_height);
-				// console.log('contentcol height: '+contentcol);
-				// console.log('height diff leftcol-contencol: '+diff_height);
-				if (diff_height < 0)
+					diff_height			= rightcol_height - contentcol_height;
+				// console.log('rightcol height: '+rightcol_height);
+				// console.log('fb_stream padding bottom: '+fb_stream_padding_bottom);
+				// console.log('contentcol height: '+contentcol_height);
+				// console.log('height diff rightcol-contencol: '+diff_height);
+				if (diff_height != 0)
 				{
-					leftcol.css({'height': (leftcol_height+Math.abs(diff_height))+'px'});
+					// rightcol.css({'height': (rightcol_height+Math.abs(diff_height))+'px'});
+					fb_stream.css({'padding-bottom': (fb_stream_padding_bottom+(contentcol_height - rightcol_height))+'px'});
 				}
 			}
 		});
@@ -245,11 +249,17 @@ var hju	= {
 		 // 	$('#owl-caption').remove();
 		 // });
 	},
+	unitless:	function(value) {
+		if (value)
+			return parseInt(value.replace('px', '').replace('%', ''));
+		return value;
+	},
 	init:	function(){
 		// dialog boxes
 		hju.initDialogBox();
 		hju.mobileNavi();
 		hju.lightbox();
+		hju.synchronizeColumnsHeight();
 		hju.handleSidebans();
 		hju.facebookShare();
 		hju.owl();
