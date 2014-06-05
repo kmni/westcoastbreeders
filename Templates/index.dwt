@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <!-- TemplateBeginEditable name="doctitle" -->
     <title>West Coast Breeders Select Sale</title>
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="The West Coast Breeders Select Sale, held during the High Roller Reining Classic ~ Las Vegas, Nevada, will be host to the who’s who of the Reining Horse Industry. The West Coast Breeders Select Sale is an annual equine horse auction dedicated to promoting the offspring of performance horse breeders. This is not just your average horse auction, trainers, breeders and stallion owners will have booths set up to promote their services and those who can assist buyers in their selection process.">
+    <meta name="author" content="KMNI.com">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="icon" href="../favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
@@ -20,13 +21,11 @@
     <link rel="stylesheet" href="../js/owl-carousel/owl.carousel.css">
     <!-- Default Theme -->
     <link rel="stylesheet" href="../js/owl-carousel/owl.theme.css">
-    <!-- InstanceBeginEditable name="head" -->
     <!-- TemplateBeginEditable name="head" -->
     <!-- TemplateEndEditable -->
-    <!-- InstanceEndEditable -->
 </head>
 
-<body class="homepage">
+<body class="homepage" data-synchronize-columns="true">
 
 	<div id="header">
 		<div class="container">
@@ -54,10 +53,10 @@
             <ul class="nav nav-list clearfix" id="top_navi">
                 <li class="first"><a href=""></a></li>
                 <li class="consignors_info">
-                	<a href="../consignors-info.html" title="Consignors info">Consignors info</a>
+                	<a href="../consignors-info.html" title="Consignors info" target="_blank">Consignors info</a>
                 </li>
 				<li class="buyers_info">
-					<a href="../buyers-info.html" title="Buyers info">Buyers info</a>
+					<a href="../buyers-info.html" title="Buyers info" target="_blank">Buyers info</a>
 				</li>
 				<li class="incentives">
 					<a href="../incentives.html" title="Incentives">Incentives</a>
@@ -90,58 +89,40 @@
 
 			<div class="contentcol">
             	<div class="home_text">
-                	<h1><!-- InstanceBeginEditable name="tagline" -->West Coast Breeders<br>Select Sale<!-- InstanceEndEditable --></h1>
-                	<!-- InstanceBeginEditable name="home-text" -->
+                	<h1><!-- TemplateBeginEditable name="tagline" -->West Coast Breeders<br>Select Sale<!-- TemplateEndEditable --></h1>
+                	<!-- TemplateBeginEditable name="home-text" -->
                 	<p>An annual equine horse auction dedicated to promoting the offspring of Reining Horse Breeders.</p>
                 	<p><em>To promote and encourage development of and public interest in agriculture and ranching 
 through the promotion of a public Horse Auction; to encourage the development and breeding of better Performance Horses; to provide sellers a premier location to market their reining horse offspring and performance horses; and provide buyers the opportunity to purchase selectively pre-screened reining horses through a public auction sale environment.</em></p>
-                	<!-- InstanceEndEditable -->
+                	<!-- TemplateEndEditable -->
                 </div> <!--// .home_text -->
 
                 <div class="consignment_deadline">
-                	<h2>CONSIGNMENT APPLICATION DEADLINE:</h2>
-                	<p>June 15th, 2014</p>
-                	<a class="download" href="" title="Cick here to download">Click here to download</a>
-                </div> <!--// .consignment_deadline -->
+                	<h2><!-- TemplateBeginEditable name="EditRegion5" -->CONSIGNMENT APPLICATION DEADLINE:<!-- TemplateEndEditable --></h2>
+                	
+               	  <p><!-- TemplateBeginEditable name="EditRegion6" -->June 15th, 2014<!-- TemplateEndEditable --></p>
+                	<!-- TemplateBeginEditable name="EditRegion7" --><a class="download" href="" title="Cick here to download">Click here to download</a><!-- TemplateEndEditable --></div> <!--// .consignment_deadline -->
                 
-                <div id="owl-demo" data-interval="2000">
-			        <div class="item">
-			        	<img src="../img/carousel/logo-01-266x266.png" alt="Owl Image">
-			        	<span>Lotti</span>
-			        </div>
-			        <div class="item">
-			        	<img src="../img/carousel/logo-02-266x266.png" alt="Owl Image">
-			        	<span>Rhodes River Ranch</span>
-			        </div>
-			        <div class="item">
-			        	<img src="../img/carousel/logo-03-266x266.png" alt="Owl Image">
-			        	<span>Eli</span>
-			        </div>
-			        <div class="item">
-			        	<img src="../img/carousel/logo-01-266x266.png" alt="Owl Image">
-			        	<span>Lotti</span>
-			        </div>
-			        <div class="item">
-			        	<img src="../img/carousel/logo-02-266x266.png" alt="Owl Image">
-			        	<span>Rhodes River Ranch</span>
-			        </div>
-			        <div class="item">
-			        	<img src="../img/carousel/logo-03-266x266.png" alt="Owl Image">
-			        	<span>Eli</span>
-			        </div>
-			    </div> <!--// #carousel -->
+                <div id="owl-demo" data-interval="2000"><!-- TemplateBeginEditable name="carousel" -->
+                  <div class="item"> <img src="../img/carousel/logo-01-266x266.png" alt="Owl Image"> <span>Lotti</span> </div>
+                  <div class="item"> <img src="../img/carousel/logo-02-266x266.png" alt="Owl Image"> <span>Rhodes River Ranch</span> </div>
+                  <div class="item"> <img src="../img/carousel/logo-03-266x266.png" alt="Owl Image"> <span>Eli</span> </div>
+                  <div class="item"> <img src="../img/carousel/logo-01-266x266.png" alt="Owl Image"> <span>Lotti</span> </div>
+                  <div class="item"> <img src="../img/carousel/logo-02-266x266.png" alt="Owl Image"> <span>Rhodes River Ranch</span> </div>
+                  <div class="item"> <img src="../img/carousel/logo-03-266x266.png" alt="Owl Image"> <span>Eli</span> </div>
+                <!-- TemplateEndEditable --></div> 
+                <!--// #carousel -->
 
-			    <div class="download_catalogue">
-			    	<h2><a href="" title="Download the entire 2014 Sale Catalogue">Download the entire<br><strong>2014 Sale Catalog</strong></a></h2>
+		      <div class="download_catalogue">
+			    	<h2><!-- TemplateBeginEditable name="bottomlink" --><a href="" title="Download the entire 2014 Sale Catalogue">Download the entire<br>
+	    	        <strong>2014 Sale Catalog</strong></a><!-- TemplateEndEditable --></h2>
 			    </div> <!--// .download_catalogue -->
 
             </div> <!--// .contentcol -->
 
-            <div class="rightcol clearfix">
-            	<a class="banner" href="" title=""><img src="../img/banners/banner-iequine-289x216.png" alt="Watch live on iEquine"></a>
-
-            	<div class="fb_stream">
-					<h2><a href="https://www.facebook.com/WestCostBreedersSelectSale" title="Follow Us on Facebook" target="_blank">WCBSS Facebook feed</a></h2>
+            <div class="rightcol clearfix"><!-- TemplateBeginEditable name="iequine-banner" --><a class="banner" href="" title=""><img src="../img/banners/banner-iequine-289x216.png" alt="Watch live on iEquine"></a><!-- TemplateEndEditable -->
+              <div class="fb_stream">
+			<h2><a href="https://www.facebook.com/WestCostBreedersSelectSale" title="Follow Us on Facebook" target="_blank">WCBSS Facebook feed</a></h2>
 					<ul id="facebook" class="clearfix" data-limit="5">
 						<li class="loading"><img src="../img/ajax-loader.gif" alt="Loading ..." width="24" height="24"><br>Loading...</li>
 					</ul>
@@ -189,7 +170,7 @@ through the promotion of a public Horse Auction; to encourage the development an
         	<div class="contacts">
         		Tel: (602) 677-3774<br>
         		Fax: (623) 670-5905<br>
-        		email: <a href="mailto:info@brumleymanagement.com">info@brumleymanagement.com</a>
+        		email: <a href="mailto:brumleymanagementgroup@gmail.com">brumleymanagementgroup@gmail.com</a>
         	</div>
             <div class="copyright">
             	Copyright &copy; 2014. designed by <a href="http://www.kmni.com" title="Website designed by Knight Media Network Inc." target="_blank">KMNI.com</a></p>
@@ -238,6 +219,17 @@ through the promotion of a public Horse Auction; to encourage the development an
 		// "392120024178056|aqQUlwOblkyuLzKmxZm39SeBVck" is Facebook authentication token
 		Social.facebook("WestCostBreedersSelectSale", "392120024178056|aqQUlwOblkyuLzKmxZm39SeBVck");
 	</script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42258040-6', 'westcoastbreedersselectsale.com');
+  ga('send', 'pageview');
+
+</script>
     
   </body>
-<!-- InstanceEnd --></html>
+</html>

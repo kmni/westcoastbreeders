@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <!-- TemplateBeginEditable name="doctitle" -->
     <title>Consignments - West Coast Breeders Select Sale</title>
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="description" content="The West Coast Breeders Select Sale, held during the High Roller Reining Classic ~ Las Vegas, Nevada, will be host to the who’s who of the Reining Horse Industry. The West Coast Breeders Select Sale is an annual equine horse auction dedicated to promoting the offspring of performance horse breeders. This is not just your average horse auction, trainers, breeders and stallion owners will have booths set up to promote their services and those who can assist buyers in their selection process.">
+    <meta name="author" content="KMNI.com">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="icon" href="../favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
@@ -17,10 +18,8 @@
     <link href="../js/colorbox/colorbox.css" rel="stylesheet">
     <link href="../css/custom.css" rel="stylesheet">
     <link href="../css/social.css" rel="stylesheet">
-    <!-- InstanceBeginEditable name="head" -->
     <!-- TemplateBeginEditable name="head" -->
     <!-- TemplateEndEditable -->
-    <!-- InstanceEndEditable -->
 </head>
 
 <body class="consignments">
@@ -51,10 +50,10 @@
             <ul class="nav nav-list clearfix" id="top_navi">
                 <li class="first"><a href=""></a></li>
                 <li class="consignors_info">
-                	<a href="../consignors-info.html" title="Consignors info">Consignors info</a>
+                	<a href="../consignors-info.html" title="Consignors info" target="_blank">Consignors info</a>
                 </li>
 				<li class="buyers_info">
-					<a href="../buyers-info.html" title="Buyers info">Buyers info</a>
+					<a href="../buyers-info.html" title="Buyers info" target="_blank">Buyers info</a>
 				</li>
 				<li class="incentives">
 					<a href="../incentives.html" title="Incentives">Incentives</a>
@@ -87,8 +86,8 @@
 
 			<div class="contentcol">
             	<div class="consignments_list">
-            		<h1><!-- InstanceBeginEditable name="tagline" -->Consignments<!-- InstanceEndEditable --></h1>             	
-                	<!-- InstanceBeginEditable name="table" -->
+            		<h1><!-- TemplateBeginEditable name="tagline" -->Consignments<!-- TemplateEndEditable --></h1>             	
+                	<!-- TemplateBeginEditable name="table" -->
 					<table>
 						<thead>
 							<tr>
@@ -164,7 +163,7 @@
 						</tbody>
 					</table>
 
-                	<!-- InstanceEndEditable -->
+                	<!-- TemplateEndEditable -->
                 </div> <!--// .consignments -->
 
             </div> <!--// .contentcol -->
@@ -182,7 +181,7 @@
         	<div class="contacts">
         		Tel: (602) 677-3774<br>
         		Fax: (623) 670-5905<br>
-        		email: <a href="mailto:info@brumleymanagement.com">info@brumleymanagement.com</a>
+        		email: <a href="mailto:brumleymanagementgroup@gmail.com">brumleymanagementgroup@gmail.com</a>
         	</div>
             <div class="copyright">
             	Copyright &copy; 2014. designed by <a href="http://www.kmni.com" title="Website designed by Knight Media Network Inc." target="_blank">KMNI.com</a></p>
@@ -196,5 +195,16 @@
     <script src="../js/colorbox/jquery.colorbox-min.js"></script>
     <script src="../js/hju.js"></script>
 
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42258040-6', 'westcoastbreedersselectsale.com');
+  ga('send', 'pageview');
+
+</script>
+
   </body>
-<!-- InstanceEnd --></html>
+</html>
